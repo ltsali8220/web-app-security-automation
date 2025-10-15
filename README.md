@@ -223,23 +223,3 @@ web-app-security-automation/
 ```
 
 ---
-
-## Next Steps for Your Repository
-
-1. **Create the repository** on GitHub with the name `web-app-security-automation`
-2. **Upload the files**:
-   - `web_app_security_automation.py`
-   - `README.md`
-3. **Add supporting files**:
-   - `requirements.txt` (for optional dependencies)
-   - `LICENSE` file
-4. **Add topics** to your repo: `devsecops`, `ci-cd`, `security-automation`, `web-security`, `appsec`
-
-This application perfectly demonstrates your DevSecOps skills and shows practical experience with:
-- **Security Tool Integration** (Burp Suite, ZAP, Nuclei)
-- **CI/CD Pipeline Automation**
-- **Web Application Security**
-- **API Security Testing**
-- **Security Automation**
-
-It's a strong portfolio piece that aligns with modern security engineering practices!

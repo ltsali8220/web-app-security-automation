@@ -8,7 +8,7 @@ A comprehensive Python-based GUI application for automating security testing in 
 ![Platform](https://img.shields.io/badge/Platform-CI%2FCD-orange)
 
 ## 📁 Repository
-**GitHub:** https://github.com/ltsali8220/web-app-security-automation.git
+**GitHub:** [https://github.com/ltsali8220/web-app-security-automation.git](https://github.com/ltsali8220/web-app-security-automation.git)
 
 ## 🚀 Features
 
@@ -51,90 +51,73 @@ A comprehensive Python-based GUI application for automating security testing in 
 ```bash
 git clone https://github.com/ltsali8220/web-app-security-automation.git
 cd web-app-security-automation
-Optional Dependencies
+```
+
+### Optional Dependencies
 For enhanced functionality, install:
-
-bash
+```bash
 pip install requests
-Running the Application
-bash
+```
+
+### Running the Application
+```bash
 python web_app_security_automation.py
-📖 Usage
-Basic Operation
-Configure Target
+```
 
-Enter target URL (e.g., https://yourapp.com)
+## 📖 Usage
 
-Specify API endpoints for focused testing
+### Configure Target
+- Enter target URL (e.g., `https://yourapp.com`)
+- Specify API endpoints for focused testing
 
-Select Security Tools
+### Select Security Tools
+- Choose from OWASP ZAP, Nuclei, Burp Suite, or custom scripts
+- Multiple tools can be selected for comprehensive scanning
 
-Choose from OWASP ZAP, Nuclei, Burp Suite, or custom scripts
+### Choose Scan Type
+- **Quick Scan**: Fast security assessment
+- **Full Security Scan**: Comprehensive testing
+- **API Security Scan**: Focused API testing
+- **Compliance Scan**: Regulatory compliance checking
 
-Multiple tools can be selected for comprehensive scanning
+### CI/CD Integration
+- Select your CI/CD platform
+- Generate pipeline configuration
+- Implement automated security testing
 
-Choose Scan Type
+## 🧩 Key Features
 
-Quick Scan: Fast security assessment
+- **Automated Security Scanning**
+  - Continuous vulnerability assessment
+  - Integration with development workflows
+  - Real-time security feedback
 
-Full Security Scan: Comprehensive testing
+- **Comprehensive Reporting**
+  - Detailed vulnerability reports
+  - Risk assessment scoring
+  - Remediation recommendations
+  - Executive summaries
 
-API Security Scan: Focused API testing
+- **CI/CD Pipeline Integration**
+  - Pre-configured pipeline templates
+  - Security quality gates
+  - Automated reporting
+  - Notification systems
 
-Compliance Scan: Regulatory compliance checking
+## 🔒 Supported Vulnerability Types
 
-CI/CD Integration
+- SQL Injection
+- Cross-Site Scripting (XSS)
+- Cross-Site Request Forgery (CSRF)
+- Information Disclosure
+- Broken Authentication
+- Security Misconfiguration
+- Insecure Direct Object References
 
-Select your CI/CD platform
+## ⚙️ CI/CD Pipeline Examples
 
-Generate pipeline configuration
-
-Implement automated security testing
-
-Key Features
-Automated Security Scanning
-Continuous vulnerability assessment
-
-Integration with development workflows
-
-Real-time security feedback
-
-Comprehensive Reporting
-Detailed vulnerability reports
-
-Risk assessment scoring
-
-Remediation recommendations
-
-Executive summaries
-
-CI/CD Pipeline Integration
-Pre-configured pipeline templates
-
-Security quality gates
-
-Automated reporting
-
-Notification systems
-
-🔒 Supported Vulnerability Types
-SQL Injection
-
-Cross-Site Scripting (XSS)
-
-Cross-Site Request Forgery (CSRF)
-
-Information Disclosure
-
-Broken Authentication
-
-Security Misconfiguration
-
-Insecure Direct Object References
-
-⚙️ CI/CD Pipeline Examples
-Jenkins Pipeline
-groovy
+### Jenkins Pipeline
+```groovy
 pipeline {
     stages {
         stage('Security Scan') {
@@ -144,127 +127,104 @@ pipeline {
         }
     }
 }
-GitHub Actions
-yaml
+```
+
+### GitHub Actions
+```yaml
 - name: Security Scan
   uses: your-org/security-scan-action@v1
   with:
     target: 'https://yourapp.com'
-📊 Output and Reporting
+```
+
+## 📊 Output and Reporting
+
 The application generates:
+- Detailed vulnerability reports (JSON, HTML)
+- CI/CD pipeline configurations
+- Risk assessment scores
+- Remediation guidance
+- Executive summaries
 
-Detailed vulnerability reports (JSON, HTML)
+## 💡 Security Integration Benefits
 
-CI/CD pipeline configurations
+- **Shift-Left Security**
+  - Early vulnerability detection
+  - Reduced remediation costs
+  - Improved security posture
 
-Risk assessment scores
+- **Continuous Monitoring**
+  - Automated security testing
+  - Regular vulnerability assessment
+  - Proactive risk management
 
-Remediation guidance
+- **Developer Empowerment**
+  - Immediate security feedback
+  - Integrated security tools
+  - Automated compliance checking
 
-Executive summaries
+## 🎯 Use Cases
 
-💡 Security Integration Benefits
-Shift-Left Security
+- **Development Teams**
+  - Integrate security into daily development
+  - Automated security testing in pull requests
+  - Continuous security monitoring
 
-Early vulnerability detection
+- **Security Teams**
+  - Centralized security testing
+  - Compliance reporting
+  - Risk management and tracking
 
-Reduced remediation costs
+- **DevOps Teams**
+  - CI/CD pipeline security integration
+  - Infrastructure security testing
+  - Automated compliance validation
 
-Improved security posture
+## 🔧 Customization
 
-Continuous Monitoring
-
-Automated security testing
-
-Regular vulnerability assessment
-
-Proactive risk management
-
-Developer Empowerment
-
-Immediate security feedback
-
-Integrated security tools
-
-Automated compliance checking
-
-🎯 Use Cases
-Development Teams
-Integrate security into daily development
-
-Automated security testing in pull requests
-
-Continuous security monitoring
-
-Security Teams
-Centralized security testing
-
-Compliance reporting
-
-Risk management and tracking
-
-DevOps Teams
-CI/CD pipeline security integration
-
-Infrastructure security testing
-
-Automated compliance validation
-
-🔧 Customization
 The application supports:
+- Custom security tools integration
+- Flexible reporting formats
+- Configurable scan parameters
+- Extensible CI/CD templates
 
-Custom security tools integration
+## 🤝 Contributing
 
-Flexible reporting formats
-
-Configurable scan parameters
-
-Extensible CI/CD templates
-
-🤝 Contributing
 Feel free to extend with:
+- Additional security tools
+- New CI/CD platform integrations
+- Enhanced reporting features
+- Additional vulnerability detection
 
-Additional security tools
+## 📄 License
 
-New CI/CD platform integrations
-
-Enhanced reporting features
-
-Additional vulnerability detection
-
-📄 License
 MIT License - Feel free to use in your projects.
 
-📞 Support
-For issues, questions, or contributions, please use the GitHub repository:
-https://github.com/ltsali8220/web-app-security-automation.git
+## 📞 Support
 
-text
+For issues, questions, or contributions, please use the [GitHub repository](https://github.com/ltsali8220/web-app-security-automation.git).
 
-## Key Additions Made:
+---
 
-1. **Repository Section**: Added prominent GitHub URL at the top
-2. **Clone Instructions**: Included git clone commands for easy setup
-3. **Badges**: Added version, Python, license, and platform badges for professional appearance
-4. **Icons**: Used emojis for better visual organization (🚀 for features, 🛠 for installation, etc.)
-5. **Support Section**: Direct users to the GitHub repo for issues and contributions
+## Recommended Repository Structure
 
-## Recommended Repository Structure:
+```
 web-app-security-automation/
 ├── web_app_security_automation.py
 ├── README.md
 ├── requirements.txt
 ├── LICENSE
 ├── examples/
-│ ├── jenkins-pipeline.groovy
-│ ├── github-actions.yml
-│ └── gitlab-ci.yml
+│   ├── jenkins-pipeline.groovy
+│   ├── github-actions.yml
+│   └── gitlab-ci.yml
 └── docs/
-└── integration-guide.md
+    └── integration-guide.md
+```
 
-text
+---
 
-## Next Steps for Your Repository:
+## Next Steps for Your Repository
 
 1. **Create the repository** on GitHub with the name `web-app-security-automation`
 2. **Upload the files**:
